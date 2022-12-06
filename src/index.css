@@ -94,7 +94,8 @@ html {
   background-color: rgb(7, 29, 12);
   font-family: "Cormorant Garamond", serif;
 }
-html.lock {
+
+body.lock {
   overflow: hidden;
 }
 

@@ -19,7 +19,7 @@ export function useBurger() {
 		};
 		const burgerButton: HTMLElement = document.querySelector('.burger-menu') as HTMLElement;
 		const burgerBody: HTMLElement = document.querySelector('.menu__body') as HTMLElement;
-		const bodyLock: HTMLElement = document.querySelector('html') as HTMLElement;
+		const bodyLock: HTMLElement = document.querySelector('body') as HTMLElement;
 		const menuLinks = document.querySelectorAll<HTMLElement>('.menu__link,.header__logo');
 		burgerButton.onclick = burgerMenuToggle;
 		menuLinks.forEach(el => {
