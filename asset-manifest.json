@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/nature-react/static/css/main.8ac009b7.css",
+    "main.js": "/nature-react/static/js/main.ae71f8dc.js",
+    "index.html": "/nature-react/index.html",
+    "main.8ac009b7.css.map": "/nature-react/static/css/main.8ac009b7.css.map",
+    "main.ae71f8dc.js.map": "/nature-react/static/js/main.ae71f8dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8ac009b7.css",
+    "static/js/main.ae71f8dc.js"
+  ]
+}
