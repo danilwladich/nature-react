@@ -14,9 +14,9 @@ export function MorePage() {
 			<div className="wrapper" >
 				<Header />
 				<div className="full-screen">
-					<video preload='auto' loop muted autoPlay>
-						<source src='videos/more.wemb' type='video/webm' />
-						<source src='videos/more.mp4' type='video/mp4' />
+					<video preload='auto' loop muted autoPlay playsInline >
+						<source src='videos/more.wemb#t=0.1' type='video/webm' />
+						<source src='videos/more.mp4#t=0.1' type='video/mp4' />
 					</video>
 				</div>
 				<div className="content">
