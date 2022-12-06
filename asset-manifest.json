@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/nature-react/static/css/main.7fecfdb4.css",
-    "main.js": "/nature-react/static/js/main.4766b99d.js",
+    "main.js": "/nature-react/static/js/main.eba31632.js",
     "index.html": "/nature-react/index.html",
     "main.7fecfdb4.css.map": "/nature-react/static/css/main.7fecfdb4.css.map",
-    "main.4766b99d.js.map": "/nature-react/static/js/main.4766b99d.js.map"
+    "main.eba31632.js.map": "/nature-react/static/js/main.eba31632.js.map"
   },
   "entrypoints": [
     "static/css/main.7fecfdb4.css",
-    "static/js/main.4766b99d.js"
+    "static/js/main.eba31632.js"
   ]
 }
