@@ -1,14 +1,11 @@
 import React from 'react';
-import { useAnimate } from '../hooks/animate';
 import { useBurger } from '../hooks/burger';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { MoreTopSlider, MoreBottomSlider } from '../components/MoreSlider';
 
 export function MorePage() {
-	useAnimate()
 	useBurger()
-
 	return (
 		<div className='more-page'>
 			<div className="wrapper" >

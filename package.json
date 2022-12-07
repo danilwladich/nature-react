@@ -1,5 +1,4 @@
 {
-  "homepage": "https://danilwladich.github.io/nature-react",
   "devDependencies": {
     "@types/jquery": "^3.5.14",
     "@types/react-slick": "^0.23.10",
