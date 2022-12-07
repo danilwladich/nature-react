@@ -12,6 +12,7 @@ export function ShopPage() {
 				<div className="wrapper" >
 					<Header />
 					<div className="content">
+					<div className="products__bg"><img src="img/shop.jpg" alt="" /></div>
 						<section className="products">
 							<div className="container big">
 									<Outlet />

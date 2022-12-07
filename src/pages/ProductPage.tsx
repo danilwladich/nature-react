@@ -28,7 +28,7 @@ export function ProductPage() {
 						<div className="product__price">{product.price} $</div>
 						<div className="product__description">
 							<p>{product.description}</p>
-							<p><span><div className="star-rating"><div className="star" style={{width: rating}}></div></div></span></p>
+							<div className="star-rating"><div className="star" style={{width: rating}}></div></div>
 						</div>
 					</div>
 				</div>
