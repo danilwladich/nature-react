@@ -343,6 +343,8 @@ body.lock {
 }
 
 .content {
+  -webkit-box-shadow: inset 0px 0px 10px #000;
+          box-shadow: inset 0px 0px 10px #000;
   position: relative;
   padding: 25px 0;
   -webkit-box-flex: 1;
@@ -536,7 +538,7 @@ body.lock {
 }
 .main-page .full-screen::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.17);
+  background-color: rgba(0, 0, 0, 0.27);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -546,7 +548,12 @@ body.lock {
 }
 .main-page .header {
   position: absolute;
-  top: 35px;
+  top: 15px;
+}
+@media (min-width: 767px) {
+  .main-page .header {
+    top: 35px;
+  }
 }
 .main-page .content {
   padding: 0;
@@ -886,6 +893,16 @@ body.lock {
           clip-path: polygon(0 0, 70% 0, 100% 100%, 30% 100%);
   visibility: hidden;
 }
+.about-page .aboutus__image::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.37);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
 @media (min-width: 767px) {
   .about-page .aboutus__block {
     padding: 30px;
@@ -907,7 +924,7 @@ body.lock {
 .more-page .full-screen {
   z-index: -1;
 }
-.more-page .full-screen video {
+.more-page .full-screen img {
   width: 100%;
   height: 100vh;
   -o-object-fit: cover;
@@ -918,7 +935,7 @@ body.lock {
 }
 .more-page .full-screen::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.47);
+  background-color: rgba(0, 0, 0, 0.37);
   position: absolute;
   width: 100%;
   height: 100%;
@@ -930,7 +947,7 @@ body.lock {
   position: absolute;
 }
 .more-page .content {
-  padding: 0;
+  padding: 0 0 75px 0;
 }
 .more-page .more-top .more {
   padding: 0px 0px 75px 0px;
@@ -1282,19 +1299,26 @@ body.lock {
   left: 0;
   background-color: transparent;
 }
-.more-page .footer {
-  margin: 75px 0px 0px 0px;
-}
 
 .shop-page .header {
   background-color: rgba(0, 25, 5, 0.87);
 }
 .shop-page .products__bg img {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   -o-object-fit: cover;
      object-fit: cover;
   position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -2;
+}
+.shop-page .products__bg::before {
+  content: "";
+  background-color: rgba(0, 0, 0, 0.27);
+  position: absolute;
+  width: 100%;
+  height: 100%;
   top: 0;
   left: 0;
   z-index: -1;

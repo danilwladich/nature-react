@@ -1,7 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { products } from '../data/products';
-import $ from "jquery";
 
 
 export function ProductPage() {
@@ -28,7 +27,7 @@ export function ProductPage() {
 						<div className="product__price">{product.price} $</div>
 						<div className="product__description">
 							<p>{product.description}</p>
-							<div className="star-rating"><div className="star" style={{width: rating}}></div></div>
+							<div className="star-rating"><div className="star" style={{ width: rating }}></div></div>
 						</div>
 					</div>
 				</div>
