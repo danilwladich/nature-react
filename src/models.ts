@@ -1,4 +1,5 @@
 export interface IProduct {
+	props?: any
 	id: number
 	title: string
 	price: number
