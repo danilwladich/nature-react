@@ -1,9 +1,7 @@
-import React, { useEffect } from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
 import { useBurger } from '../hooks/burger';
 import { Outlet } from "react-router-dom";
-import { products } from '../data/products';
 
 
 

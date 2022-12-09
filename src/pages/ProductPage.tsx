@@ -1,16 +1,18 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { products } from '../data/products';
+import { useProducts } from '../hooks/products';
 
 
 export function ProductPage() {
+	const { products, loading } = useProducts()
 	const params = useParams();
 	const productId = params.id as unknown;
-	// eslint-disable-next-line
 	const product = products.find(p => p.id == productId as number);
-
+	if (loading) {
+		return <div className='products__loading'><div></div><div></div><div></div><div></div></div>
+	}
 	if (product === undefined) {
-		return <div className='product__not-found'>Product not found :/</div>;
+		return <div className='product__not-found'>Product not found <br />:/</div>
 	} else {
 		const rating: string = product.rating.rate * 100 / 5 + "%";
 		return (

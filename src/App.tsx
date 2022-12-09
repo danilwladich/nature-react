@@ -4,7 +4,7 @@ import { AboutPage } from './pages/AboutPage';
 import { ShopPage } from './pages/ShopPage';
 import { MorePage } from './pages/MorePage';
 import { ProductPage } from './pages/ProductPage';
-import { ShopOutlet } from './outlet/ShopOutlet';
+import { ShopOutlet } from './outlets/ShopOutlet';
 
 function App() {
   return (
