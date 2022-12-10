@@ -12,14 +12,14 @@ export function ShopPage() {
 			<div className='shop-page'>
 				<div className="wrapper" >
 					<Header />
-					<div className="content">
+					<main className="content">
 						<div className="products__bg"><img src="img/shop.jpg" alt="" /></div>
 						<section className="products">
 							<div className="container big">
 								<Outlet />
 							</div>
 						</section>
-					</div>
+					</main>
 					<Footer />
 				</div >
 			</div>

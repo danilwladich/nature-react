@@ -6,13 +6,13 @@ export function Footer() {
 	return (
 		<>
 			<footer className="footer">
-				<div className="footer__copy">
+				<address className="footer__copy">
 					Warsaw 2022<br />
 					<span>00-123 Street <br /> frosbutte1@gmail.com</span>
-				</div>
-				<div className="footer__logo">
+				</address>
+				<nav className="footer__logo">
 					<span className='logo__link'>Nature</span>
-				</div>
+				</nav>
 				<nav className="footer__nav">
 					<div className="footer__link">
 						<a rel="noreferrer" target="_blank" href="https://www.facebook.com/danilwladich/"><img src="img/icons/facebook.svg"

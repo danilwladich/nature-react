@@ -11,7 +11,7 @@ export function AboutPage() {
 		<div className='about-page'>
 			<div className="wrapper" >
 				<Header />
-				<div className="content">
+				<main className="content">
 					<div className="aboutus__image"><img src="img/about.jpg" alt="" /></div>
 					<section className="aboutus">
 						<div className="container">
@@ -30,7 +30,7 @@ export function AboutPage() {
 							</div>
 						</div>
 					</section>
-				</div>
+				</main>
 				<Footer />
 			</div >
 		</div>

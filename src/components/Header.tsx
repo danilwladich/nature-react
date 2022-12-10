@@ -15,11 +15,11 @@ export function Header() {
 							<HeaderNavigation />
 						</div>
 					</nav>
-					<div className="header__logo">
+					<nav className="header__logo">
 						<Link to="/">
 							<h1>Nature</h1>
 						</Link>
-					</div>
+					</nav>
 				</div>
 			</header>
 		</>

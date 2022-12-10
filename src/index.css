@@ -916,9 +916,9 @@ body.lock {
 .more-page .full-screen::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.37);
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: 1;
@@ -1300,9 +1300,9 @@ body.lock {
 .shop-page .products__bg::before {
   content: "";
   background-color: rgba(0, 0, 0, 0.27);
-  position: absolute;
+  position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;

@@ -13,7 +13,7 @@ export function MainPage() {
 				<div className="full-screen">
 					<img src="img/bg-main.jpg" alt="" />
 				</div>
-				<div className="content">
+				<main className="content">
 					<section className="natureis">
 						<div className="container">
 							<div className="natureis__block animated-item">
@@ -67,7 +67,7 @@ export function MainPage() {
 							</div>
 						</div>
 					</section>
-				</div>
+				</main>
 				<Footer />
 			</div >
 		</div>

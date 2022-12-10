@@ -13,7 +13,7 @@ export function MorePage() {
 				<div className="full-screen">
 					<img src="img/more.jpg" alt="" />
 				</div>
-				<div className="content">
+				<main className="content">
 					<section className="more-top">
 						<div className="more">
 							<div className="container">
@@ -70,7 +70,7 @@ export function MorePage() {
 							</div>
 						</div>
 					</section>
-				</div>
+				</main>
 				<Footer />
 			</div >
 		</div>
