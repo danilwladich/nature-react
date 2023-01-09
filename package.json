@@ -1,7 +1,6 @@
 {
   "homepage": "https://danilwladich.github.io/nature-react",
   "devDependencies": {
-    "@types/jquery": "^3.5.14",
     "@types/react-slick": "^0.23.10",
     "gh-pages": "^4.0.0"
   },
@@ -17,8 +16,6 @@
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "axios": "^1.2.1",
-    "jquery": "^3.6.1",
-    "jquey": "^0.0.1-security",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.4.4",

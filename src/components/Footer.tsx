@@ -1,5 +1,5 @@
 import React from 'react';
-import { useScrollToTop } from './../hooks/scrollToTop';
+import { useScrollToTop } from '../hooks/useScrollToTop';
 
 export function Footer() {
 	useScrollToTop();
@@ -16,14 +16,14 @@ export function Footer() {
 				<nav className="footer__nav">
 					<div className="footer__link">
 						<a rel="noreferrer" target="_blank" href="https://www.facebook.com/danilwladich/"><img src="img/icons/facebook.svg"
-							alt="" /></a>
+							alt="facebook" /></a>
 					</div>
 					<div className="footer__link">
 						<a rel="noreferrer" href="https://www.instagram.com/danil_wladich/" target="_blank"><img src="img/icons/instagram.svg"
-							alt="" /></a>
+							alt="instagram" /></a>
 					</div>
 					<div className="footer__link">
-						<a rel="noreferrer" href="/"><img src="img/icons/twitter.svg" alt="" /></a>
+						<a rel="noreferrer" href="/"><img src="img/icons/twitter.svg" alt="twitter" /></a>
 					</div>
 				</nav>
 			</footer>

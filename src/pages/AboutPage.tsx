@@ -1,12 +1,10 @@
 import React from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-import { useBurger } from '../hooks/burger';
-import { useAnimate } from '../hooks/animate';
+import { useAnimate } from '../hooks/useAnimate';
 
 export function AboutPage() {
 	useAnimate()
-	useBurger()
 	return (
 		<div className='about-page'>
 			<div className="wrapper" >

@@ -1,16 +1,14 @@
 import { useEffect } from 'react';
-import $ from "jquery";
 
 export function useBurger() {
 
 	useEffect(() => {
 
-		const body = $("html, body") as JQuery<HTMLElement>;
 		function burgerMenuToggle() {
 			burgerButton.classList.toggle('active');
 			burgerBody.classList.toggle('active');
 			bodyLock.classList.toggle('lock');
-			body.animate({ scrollTop: 0 }, 500);
+			window.scrollTo(0, 0);
 		};
 		function burgerMenuRemove() {
 			burgerButton.classList.remove('active');

@@ -1,8 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { HeaderNavigation } from './HeaderNavigation';
+import { useBurger } from '../hooks/useBurger';
 
 export function Header() {
+	useBurger()
 	return (
 		<>
 			<header className="header">

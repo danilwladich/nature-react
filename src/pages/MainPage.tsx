@@ -1,11 +1,10 @@
-import { useAnimate } from '../hooks/animate';
+import React from 'react';
 import { Header } from '../components/Header';
 import { Footer } from '../components/Footer';
-import { useBurger } from '../hooks/burger';
+import { useAnimate } from '../hooks/useAnimate';
 
 export function MainPage() {
 	useAnimate()
-	useBurger()
 	return (
 		<div className='main-page'>
 			<div className="wrapper" >

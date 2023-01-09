@@ -1,13 +1,15 @@
 import { useEffect } from 'react';
-import $ from "jquery";
 
 export function useScrollToTop() {
 	useEffect(() => {
 
 
-		const body = $("html, body") as JQuery<HTMLElement>;
 		function scrollToTop() {
-			body.animate({ scrollTop: 0 }, 500);
+			window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			});
 		};
 		const logo: HTMLElement = document.querySelector('.logo__link') as HTMLElement;
 		logo.onclick = scrollToTop;
